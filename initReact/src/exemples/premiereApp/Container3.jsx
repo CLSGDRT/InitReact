@@ -5,7 +5,7 @@ export default function Container() {
     return (
         <div>
             <h1>React Training</h1>
-            <button className="u-btn" onClick={printSomething()}>Click me !</button>
+            <button className="u-btn" onClick={printSomething}>Click me !</button>
         </div>
     );
 }
